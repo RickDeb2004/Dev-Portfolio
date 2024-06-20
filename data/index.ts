@@ -10,7 +10,8 @@ export const gridItems = [
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className:
+      "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] text-white",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
@@ -20,17 +21,17 @@ export const gridItems = [
     id: 2,
     title: "I'm very flexible with time zone communications",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2 text-white",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "",
+    img: "/next.svg",
     spareImg: "",
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    title: "My tech stacks",
+
+    className: "lg:col-span-2 md:col-span-3 md:row-span-3 text-white",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
@@ -40,7 +41,7 @@ export const gridItems = [
     id: 4,
     title: "Tech enthusiast with a passion for development.",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1 text-white",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
@@ -49,11 +50,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building an AI integrated business analysis platform",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
+    titleClassName:
+      "justify-center md:justify-start lg:justify-center text-white",
     img: "/b5.svg",
     spareImg: "/grid.svg",
   },
@@ -72,35 +74,39 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "NestONDC - Digital Commerce Platform",
+    des: "Our project is an ONDC (Open Network for Digital Commerce) site integrated with OpenStreetMap. Businesses and consumers across Bharat will benefit from seamless digital commerce experiences. Leveraging the OpenStreetMap API for location-based services, our platform not only visualizes shop locations on a dynamic geo map but also enhances the efficiency of site performance by 30%.",
+    img: "/nest.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fire.svg"],
+    link: "https://github.com/RickDeb2004/NestONDC",
+    live: "https://nestondc.el.r.appspot.com/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Project Oregano",
+    des: "Engineered to develop the website of HackNITR, one of the largest hackathons in India’s eastern region, which receives 12.1k monthly visits. Implemented the UI with good responsiveness and contributed to the web assembly of the website.",
+    img: "/hack.png",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://github.com/RickDeb2004/Project-Oregano",
+    live: "https://hacknitr.com/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Banking Backend Service",
+    des: "A loan management system powered by Node.js and Express.js, utilizing MySQL database for data storage. It offers functionalities including customer registration, loan eligibility checking, loan creation, payment processing, and statement viewing. With Docker containerization and Docker Compose for deployment, it ensures scalability and ease of setup.",
+    img: "/bank.png",
+    iconLists: ["/node.svg", "/postman.svg", "/sql.svg", "/dock.svg"],
+    link: "https://github.com/RickDeb2004/Banking-Backend-Service",
+    live: "https://github.com/RickDeb2004/Banking-Backend-Service",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "News-Store",
+    des: "Expertly crafted a feature-rich Desktop News Application, resulting in a dynamic and intuitive interface tailored for both news readers and administrators. Utilized Electron to package the application for cross-platform compatibility, enabling seamless usage on Windows and macOS with a streamlined installation process and optimized performance. Implemented robust authentication and real-time database operations using Firebase, facilitating secure user login and efficient management of news articles and categories.",
+    img: "/news.png",
+    iconLists: ["/electron.svg", "/next.svg", "/fire.svg", "/tail.svg"],
+    link: "https://github.com/RickDeb2004/News-Store",
+    live: "https://github.com/RickDeb2004/package-desktop",
   },
 ];
 
@@ -140,64 +146,32 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Ram Lakhan Charity",
+
+    nameImg: "/ram.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Intellirecruit",
+
+    nameImg: "/int.png",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Developer (Full-time)",
+    desc: "Rebuilt and integrated the About, Media, Gallery, and Contact components of the website for Ram Lakhan Charitable Trust, optimizing architecture and increasing organic search traffic by 50%. Integrated Firebase Firestore and Storage, improving data retrieval speeds by 40% and reducing storage costs by 30%.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/ram.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Full-Stack Developer (Part-time)",
+    desc: "Revamped the login and register pages of Intellirecruit website, improving user engagement by 20% and reducing bounce rates by 15%. Implemented GraphQL for the API, enabling advanced skill-based searches and increasing user satisfaction by 25%. Improved data retrieval from Cloud SQL, reducing query response time by 30%.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/int.png",
   },
 ];
 
@@ -205,13 +179,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/RickDeb2004",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/DebanjanNit",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/debanjan-mukherjee-181615224/",
   },
 ];

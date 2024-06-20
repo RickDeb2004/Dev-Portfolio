@@ -42,8 +42,8 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+          <p className="uppercase tracking-widest text-xs text-center text-black-200 max-w-80">
+           Always excited to build 
           </p>
 
           {/**
@@ -57,12 +57,12 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Hi! I&apos;m Debanjan, a Full Stack Developer based in India.
           </p>
 
-          <a href="#about">
+          <a href="/resume.pdf" target="_blank">
             <MagicButton
-              title="Show my work"
+              title="View my resume"
               icon={<FaLocationArrow />}
               position="right"
             />
