@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize client collaboration, fostering open communication",
     description: "",
     className:
       "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] text-white",
@@ -113,32 +113,20 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Debanjan is an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Debanjan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Debanjan is the ideal partner.",
-    name: "Arvind ",
+      "I met Debanjan via C4GT's DMP2024 program. His proposal was one of best out of 50 proposals, for a fullstack web dev project. His communication was clear and though he was not selected, he was willing to learn from this loss to improve himself ,It was the reason that I chose to start a new project with him. Over the course of the project he has delivered on time, ensured high level of quality and always ready to improve. I'm glad that I found a reliable professional like him and hoping to execute more projects.",
+    name: "Arvind Kumar ",
     title: "COO of Vebsigns Technologies",
   },
   {
     quote:
-      "Collaborating with Debanjan is an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Debanjan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Debanjan is the ideal partner.",
-    name: "Arvind ",
+      "I met Debanjan via C4GT's DMP2024 program. His proposal was one of best out of 50 proposals, for a fullstack web dev project. His communication was clear and though he was not selected, he was willing to learn from this loss to improve himself ,It was the reason that I chose to start a new project with him. Over the course of the project he has delivered on time, ensured high level of quality and always ready to improve. I'm glad that I found a reliable professional like him and hoping to execute more projects.",
+    name: "Arvind Kumar ",
     title: "COO of Vebsigns Technologies",
   },
   {
     quote:
-      "Collaborating with Debanjan is an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Debanjan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Debanjan is the ideal partner.",
-    name: "Arvind ",
-    title: "COO of Vebsigns Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Debanjan is an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Debanjan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Debanjan is the ideal partner.",
-    name: "Arvind ",
-    title: "COO of Vebsigns Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Debanjan is an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Debanjan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Debanjan is the ideal partner.",
-    name: "Arvind ",
+      "I met Debanjan via C4GT's DMP2024 program. His proposal was one of best out of 50 proposals, for a fullstack web dev project. His communication was clear and though he was not selected, he was willing to learn from this loss to improve himself ,It was the reason that I chose to start a new project with him. Over the course of the project he has delivered on time, ensured high level of quality and always ready to improve. I'm glad that I found a reliable professional like him and hoping to execute more projects.",
+    name: "Arvind Kumar",
     title: "COO of Vebsigns Technologies",
   },
 ];
@@ -146,12 +134,19 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
+    name: "Vebsigns",
+
+    nameImg: "/veb.png",
+  },
+
+  {
+    id: 2,
     name: "Ram Lakhan Charity",
 
     nameImg: "/ram.png",
   },
   {
-    id: 2,
+    id: 3,
     name: "Intellirecruit",
 
     nameImg: "/int.png",
@@ -161,13 +156,21 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    title: "Full Stack Developer (Intern)",
+    desc: "Developing a business portfolio platform where the executives can easily manage the whole business operations effectively and the effective analysis report will help the growth of the client's business.",
+    className: "md:col-span-2",
+    thumbnail: "/veb.png",
+  },
+
+  {
+    id: 2,
     title: "Full Stack Developer (Full-time)",
     desc: "Rebuilt and integrated the About, Media, Gallery, and Contact components of the website for Ram Lakhan Charitable Trust, optimizing architecture and increasing organic search traffic by 50%. Integrated Firebase Firestore and Storage, improving data retrieval speeds by 40% and reducing storage costs by 30%.",
     className: "md:col-span-2",
     thumbnail: "/ram.png",
   },
   {
-    id: 2,
+    id: 3,
     title: "Full-Stack Developer (Part-time)",
     desc: "Revamped the login and register pages of Intellirecruit website, improving user engagement by 20% and reducing bounce rates by 15%. Implemented GraphQL for the API, enabling advanced skill-based searches and increasing user satisfaction by 25%. Improved data retrieval from Cloud SQL, reducing query response time by 30%.",
     className: "md:col-span-2",
