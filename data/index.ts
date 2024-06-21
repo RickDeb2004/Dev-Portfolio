@@ -96,8 +96,8 @@ export const projects = [
     des: "A loan management system powered by Node.js and Express.js, utilizing MySQL database for data storage. It offers functionalities including customer registration, loan eligibility checking, loan creation, payment processing, and statement viewing. With Docker containerization and Docker Compose for deployment, it ensures scalability and ease of setup.",
     img: "/bank.png",
     iconLists: ["/node.svg", "/postman.svg", "/sql.svg", "/dock.svg"],
-    link: "https://github.com/RickDeb2004/Banking-Backend-Service",
-    live: "https://github.com/RickDeb2004/Banking-Backend-Service",
+    link: "https://github.com/RickDeb2004/Banking_Backend_Service",
+    live: "https://github.com/RickDeb2004/Banking_Backend_Service",
   },
   {
     id: 4,
